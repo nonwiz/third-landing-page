@@ -1,0 +1,130 @@
+:root {
+  --bg: #f8fafb;
+  --primary: #000;
+  --secondary: #fff;
+  --lead: #444444;
+  --link: #0284C7;
+}
+
+html {
+  font-family:  fantasy monospace;
+  background: var(--bg);
+  color: var(--primary);
+  letter-spacing: 2px;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  border-radius: 100%;
+  filter: blur(0.04rem);
+}
+
+a {
+  color: var(--link);
+
+}
+
+a:hover {
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+
+
+header img:hover {
+  border-radius: 100%;
+  filter: blur(0rem);
+}
+body {
+  padding: 5vh 10vw;
+  font-size: 1.15rem;
+  word-break: break-word;
+}
+
+section {
+  margin: 0 0 3rem 0;
+}
+
+img, video {
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+p {
+  margin: 0;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+}
+
+section div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+div * {
+  margin: 0.4rem;
+
+}
+
+summary:hover, a {
+  cursor: pointer;
+}
+
+details {
+  border: 2px solid var(--primary);
+  padding: 0.2rem;
+}
+
+details p, li {
+  font-size: 1rem;
+  color: var(--lead);
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+footer p, li {
+  font-size: 1rem;
+  color: var(--lead);
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+
+/* Fix line height when title wraps */
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+address {
+  padding: 0.4rem;
+  color: var(--lead);
+  font-style: normal;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 800px) {
+  body { padding: 0 1vw;  }
+  
+ h1 {
+    font-size: 1.8rem;
+  }
+
+}
+
