@@ -61,10 +61,6 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
-  font-size: 1.7rem;
-}
-
 p {
   margin: 0;
   padding: 0.2rem;
@@ -120,11 +116,12 @@ address {
 }
 
 @media only screen and (max-width: 800px) {
-  body { padding: 0 1vw;  }
+  body { padding: 5vh 1vw;  }
   
  h1 {
     font-size: 1.8rem;
   }
+
 
 }
 
