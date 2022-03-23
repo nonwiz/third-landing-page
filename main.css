@@ -40,7 +40,8 @@ header img:hover {
   filter: blur(0rem);
 }
 body {
-  padding: 5vh 10vw;
+
+    padding: 5vh 1vw;  
   font-size: 1.15rem;
   word-break: break-word;
 }
@@ -115,13 +116,24 @@ address {
   font-size: 0.9rem;
 }
 
-@media only screen and (max-width: 800px) {
-  body { padding: 5vh 1vw;  }
-  
- h1 {
-    font-size: 1.8rem;
+@media (min-width: 600px ) and (max-width: 1400px) {
+  body { 
+    padding: 5vh 10vw;
   }
-
-
 }
+
+@media (min-width: 1401px ) {
+  body { 
+    padding: 5vh 20vw;
+  }
+}
+
+
+@media (min-width: 1901px ) {
+  body { 
+    padding: 5vh 30vw;
+  }
+}
+
+
 
