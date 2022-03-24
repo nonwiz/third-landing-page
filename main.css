@@ -20,7 +20,6 @@ header {
 
 header img {
   border-radius: 100%;
-  filter: blur(0.04rem);
 }
 
 a {
@@ -39,6 +38,7 @@ a:hover {
 header img:hover {
   border-radius: 100%;
   filter: blur(0rem);
+  opacity: 0.9;
 }
 
 body {
