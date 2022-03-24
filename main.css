@@ -25,6 +25,7 @@ header img {
 
 a {
   color: var(--link);
+  text-decoration: none;
 
 }
 
@@ -39,9 +40,9 @@ header img:hover {
   border-radius: 100%;
   filter: blur(0rem);
 }
-body {
 
-    padding: 5vh 1vw;  
+body {
+  padding: 5vh 1vw;  
   font-size: 1.15rem;
   word-break: break-word;
 }
