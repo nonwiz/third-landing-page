@@ -17,7 +17,7 @@
       <img src="assets/broset.webp" width="200" height="194" alt="broset's portrait" />
     </div>
     <h1>Chanbroset Prach</h1>
-    <p> Software engineering <br />@ ..... </p>
+    <p> Software Engineer <br />@ ..... </p>
   </header>
 
   <section>
@@ -26,8 +26,9 @@
     <div>
       <details open>
         <summary> Introduction </summary>
-        <p> Hey, I'm Broset, majoring in Information Technology @<a href="https://apiu.edu" target="_blank">AIU</a>. I'm
-          expecting to graduate at this coming May, 2022. Open to work on-site or remotely.</p>
+        <p> I'm Broset, IT undergraduate @<a href="https://apiu.edu" target="_blank">AIU</a>, Thailand. I expected to
+          graduated at this coming May 2022. I'm open to work on-site or remotely.
+        </p>
       </details>
 
       <details>
@@ -191,18 +192,55 @@
 
   </section>
 
+  <section>
+    <p> Shared </p>
+    <hr />
+    <div>
+      <details>
+        <summary>JS</summary>
+        <p>An web application that aims: Improve productivity and save important stuff, including: </p>
+        <ul>
+          <li> Time tracker </li>
+          <li> Link Organizer </li>
+          <li> Note Keeper </li>
+        </ul>
+        <p>Built with @nextjs, @prisma, @planetscale, and @tailwind. <br /> Find out or test at <a
+            href="https://github.com/nonwiz/logtree" target="_blank">Github</a> </p>
+      </details>
+
+
+
+
+    </div>
+
+  </section>
+
+
 
   <footer>
     <p> Contact </p>
     <hr />
     <p>Interested to collaborate on something together? <a href="mailto:nonwiz@pm.me" target="_blank">Send Mail</a></p>
     <address>Saraburi, Thailand</address>
-    <p>Inspired by <a href="https://simplecss.org/demo" target="_blank">Simple.css</a></p>
 
   </footer>
 
 
 
+  <script>
+
+    const runFx = async () => {
+      let d = await fetch("./data.json");
+      let dj = d.json();
+      dj.then(d => {
+        console.log(d);
+      })
+      console.log(d, dj)
+    }
+
+    runFx();
+
+  </script>
 
 
 </body>
