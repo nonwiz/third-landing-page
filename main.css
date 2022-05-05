@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family:  fantasy monospace;
+  font-family: fantasy monospace;
   background: var(--bg);
   color: var(--primary);
   letter-spacing: 2px;
@@ -42,7 +42,7 @@ header img:hover {
 }
 
 body {
-  padding: 5vh 1vw;  
+  padding: 5vh 1vw;
   font-size: 1.15rem;
   word-break: break-word;
 }
@@ -51,11 +51,17 @@ section {
   margin: 0 0 3rem 0;
 }
 
-img, video {
+img,
+video {
   opacity: 0.8;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0.5em 0em;
 }
 
@@ -81,8 +87,13 @@ div * {
 
 }
 
-summary:hover, a {
+summary:hover,
+a {
   cursor: pointer;
+}
+
+details[open] {
+  width: 100%;
 }
 
 details {
@@ -90,13 +101,16 @@ details {
   padding: 0.2rem;
 }
 
-details p, li {
+details p,
+li {
   font-size: 1rem;
   color: var(--lead);
   line-height: 1.8;
   letter-spacing: 0.1rem;
 }
-footer p, li {
+
+footer p,
+li {
   font-size: 1rem;
   color: var(--lead);
   line-height: 1.8;
@@ -117,24 +131,21 @@ address {
   font-size: 0.9rem;
 }
 
-@media (min-width: 600px ) and (max-width: 1400px) {
-  body { 
+@media (min-width: 600px) and (max-width: 1400px) {
+  body {
     padding: 5vh 10vw;
   }
 }
 
-@media (min-width: 1401px ) {
-  body { 
-    padding: 5vh 20vw;
+@media (min-width: 1401px) {
+  body {
+    padding: 5vh 35vw;
   }
 }
 
 
-@media (min-width: 1901px ) {
-  body { 
-    padding: 5vh 30vw;
+@media (min-width: 1901px) {
+  body {
+    padding: 5vh 50vw;
   }
 }
-
-
-
