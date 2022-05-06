@@ -23,10 +23,6 @@ My third iteration, code name "nonwiz", inspired by Simple.css, classless css fr
 
 ## Development
 
-- Frontend (FE): HTML, CSS, JS, React
-- FE-Framework: Bootstrap, TailwindCSS, HeadlessUi, NextUI, Ionic
-
-- Backend (BE): Nodejs, Python
-- BE-Framework: Nextjs, Django
-
+- Frontend (FE): HTML, CSS, JS, React, Bootstrap, TailwindCSS, HeadlessUi, NextUI, Ionic
+- Backend (BE): Nodejs, Python, Nextjs, Django
 - Other: Git, Solidity, Vyper, Brownie
