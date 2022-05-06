@@ -1,6 +1,6 @@
 # Nonwiz
 
-My third iteration, code name "nonwiz", zero class for css site.
+My third iteration, code name "nonwiz", inspired by Simple.css, classless css framework.
 
 ## Stats
 
@@ -28,4 +28,5 @@ My third iteration, code name "nonwiz", zero class for css site.
 
 - Backend (BE): Nodejs, Python
 - BE-Framework: Nextjs, Django
-- Other: Git
+
+- Other: Git, Solidity, Vyper, Brownie
