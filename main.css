@@ -142,10 +142,3 @@ address {
     padding: 5vh 35vw;
   }
 }
-
-
-@media (min-width: 1901px) {
-  body {
-    padding: 5vh 50vw;
-  }
-}
