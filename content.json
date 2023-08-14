@@ -1,3 +1,13 @@
 {
-  "custom-field": "New example"
+  "custom-field": "New example",
+  "exampleList": [
+    {
+      "exampleField1": "Index 2: field 1",
+      "exampleField2": "Index 2: field 2"
+    },
+    {
+      "exampleField1": "Field 1",
+      "exampleField2": "Field 2"
+    }
+  ]
 }
