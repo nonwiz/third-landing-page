@@ -1,12 +1,14 @@
 {
   ":name": "Motip",
-  "exampleList": {
-    ":items": {
-      "exampleField1": {
-        ":type": "line"
-      },
-      "exampleField2": {
-        ":type": "text"
+  "evaluation": {
+    "multiplier_options": {
+      ":items": {
+        "label": {
+          ":type": "line"
+        },
+        "value": {
+          ":type": "line"
+        }
       }
     }
   }
