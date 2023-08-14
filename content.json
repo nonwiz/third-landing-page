@@ -1,2 +1,14 @@
 {
+  "evaluation": {
+    "multiplier_options": [
+      {
+        "label": "x1",
+        "value": "1"
+      },
+      {
+        "label": "x1.5",
+        "value": "1.5"
+      }
+    ]
+  }
 }
